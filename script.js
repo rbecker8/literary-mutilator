@@ -4,7 +4,7 @@ function changeColor(x) {
 }
 
 function changeColorBack(x) {
-	x.style.color = "teal";
+	x.style.color = "black";
 }
 
 // this will add text highlighting
