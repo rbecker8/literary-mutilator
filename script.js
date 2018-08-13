@@ -12,6 +12,6 @@ function highlightOn(x) {
 	x.style.backgroundColor = "yellow";
 }
 
-function hightlightOff(x) {
+function highlightOff(x) {
 	x.style.backgroundColor = "white";
 }
