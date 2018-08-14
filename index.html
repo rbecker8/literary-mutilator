@@ -6,25 +6,42 @@
 				<!-- Bootstrap CSS -->
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 				<!-- CSS style link -->
-
+				<link rel="stylesheet" href="styles/style.css" type="text/css" />
 	</head>
 	<body>
-		<div class="container">
-			<!-- this will change the text color -->
-			<p onmouseover="changeColor(this)" onmouseout="changeColorBack(this)">
-			Bacon ipsum dolor amet venison spare ribs flank drumstick pork chop burgdoggen meatball doner picanha bacon biltong brisket landjaeger. Turkey drumstick ham brisket beef tenderloin doner. Alcatra drumstick venison biltong leberkas hamburger bacon pancetta. Jowl beef ribs pancetta shank venison t-bone meatloaf short loin bresaola ham hock landjaeger.
-			</p>
-			<!-- this will highlight the paragraph -->
-			<p onmouseover="highlightOn(this)" onmouseout="highlightOff(this)">
-			Shankle chuck ball tip, pastrami doner jerky brisket hamburger prosciutto cupim. Venison ground round pig short loin, tongue meatball rump kielbasa short ribs turkey landjaeger boudin leberkas andouille. Hamburger pancetta tenderloin meatball strip steak corned beef salami alcatra boudin fatback tri-tip. Strip steak tri-tip pastrami shank cupim shankle capicola jerky ball tip picanha filet mignon. Sausage pastrami swine ball tip chicken tongue prosciutto. Ham cupim pig picanha hamburger pancetta.
-			</p>
-			<p id="third" onmouseover="replaceWord()" onmouseout="replaceWordBack()">
-			Kevin tri-tip landjaeger, shank corned beef sausage venison buffalo swine meatloaf. Sirloin shank brisket bacon ball tip meatloaf tenderloin swine sausage beef ribs. Pig ham strip steak leberkas corned beef ham hock kielbasa porchetta landjaeger capicola pork loin cow pork chop. Jowl sirloin boudin hamburger pancetta corned beef. Shankle landjaeger shank, swine corned beef spare ribs salami boudin leberkas tail andouille hamburger. Capicola shank boudin, tail bacon ground round meatball beef ribs tongue chuck hamburger doner flank short ribs leberkas. Swine ham capicola short ribs landjaeger.
-			</p>
-			<p>
-			Bacon ipsum dolor amet buffalo salami flank pork beef ribs. Frankfurter corned beef pork loin cow kielbasa meatball short ribs turkey salami capicola beef. Pancetta kielbasa corned beef ribeye meatball pig. Rump pastrami fatback pancetta jowl shankle pork tenderloin short ribs. Pig chicken prosciutto, shankle drumstick turkey ribeye sirloin.
-			</p>
+	<nav class="navbar navbar-light" style="background-color: maroon">
+		<a class="navbar-brand" href="images/youhadme.jpg">
+			<img src="images/baconlogo.svg" width="30" height="30" class="d-inline-block align-top" alt="bacon logo">
+			Sizzle
+		</a>
+	</nav>
+		<div class="container-fluid">
+		<div class="card-deck">
+				<div class="card border-danger mb-3" style="max-width: 30rem;">
+					<img class="card-img-top" src="http://placebacon.net/400/350" alt="Bacon Cap 1">
+					<div class="card-body">
+						<p onmouseover="changeColor(this)" onmouseout="changeColorBack(this)">
+							Bacon ipsum dolor amet venison spare ribs flank drumstick pork chop burgdoggen meatball doner picanha bacon biltong brisket landjaeger. Turkey drumstick ham brisket beef tenderloin doner. Alcatra drumstick venison biltong leberkas hamburger bacon pancetta. Jowl beef ribs pancetta shank venison t-bone meatloaf short loin bresaola ham hock landjaeger.
+						</p>
+					</div>
+				</div>
+			<div class="card border-danger mb-3" style="max-width: 30rem;">
+				<img class="card-img-top" src="http://placebacon.net/400/340" alt="Bacon Cap 2">
+				<div class="card-body">
+					<p onmouseover="highlightOn(this)" onmouseout="highlightOff(this)">
+						Shankle chuck ball tip, pastrami doner jerky brisket hamburger prosciutto cupim. Venison ground round pig short loin, tongue meatball rump kielbasa short ribs turkey landjaeger boudin leberkas andouille. Hamburger pancetta tenderloin meatball strip steak corned beef salami alcatra boudin fatback tri-tip. Strip steak tri-tip pastrami shank cupim shankle capicola jerky ball tip picanha filet mignon. Sausage pastrami swine ball tip chicken tongue prosciutto. Ham cupim pig picanha hamburger pancetta.
+					</p>
+				</div>
+			</div>
+			<div class="card border-danger mb-3" style="max-width: 30rem;">
+				<img class="card-img-top" src="http://placebacon.net/400/344" alt="Bacon Cap 3">
+				<div class="card-body">
+					<p id="third" onmouseover="replaceWord()" onmouseout="replaceWordBack()">
+						Kevin tri-tip landjaeger, shank corned beef sausage venison buffalo swine meatloaf. Sirloin shank brisket bacon ball tip meatloaf tenderloin swine sausage beef ribs. Pig ham strip steak leberkas corned beef ham hock kielbasa porchetta landjaeger capicola pork loin cow pork chop. Jowl sirloin boudin hamburger pancetta corned beef. Shankle landjaeger shank, swine corned beef spare ribs salami boudin leberkas tail andouille hamburger. Capicola shank boudin, tail bacon ground round meatball beef ribs tongue chuck hamburger doner flank short ribs leberkas. Swine ham capicola short ribs landjaeger.
+					</p>
+				</div>
+			</div>
 		</div>
 		<script src="script.js"></script>
 	</body>
-</h
+</html>
